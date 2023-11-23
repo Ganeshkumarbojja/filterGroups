@@ -1,0 +1,166 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.no-products-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-container {
+    width: 70%;
+  }
+}
+
+.no-products-image {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-image {
+    width: 60%;
+  }
+}
+
+.no-products-found {
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #12022f;
+  margin-bottom: 0px;
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-found {
+    width: 50%;
+    font-size: 25px;
+  }
+}
+
+.no-products-description {
+  font-size: 14px;
+  color: #64748b;
+  font-family: 'Roboto';
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-description {
+    width: 50%;
+    font-size: 16px;
+  }
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-container {
+    width: 70%;
+  }
+}
+
+.failure-image {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-image {
+    width: 50%;
+  }
+}
+
+.products-failure-head {
+  font-size: 20px;
+  font-weight: 500;
+  color: #12022f;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-head {
+    width: 50%;
+    font-size: 25px;
+  }
+}
+
+.products-failure-description {
+  font-size: 14px;
+  color: #64748b;
+  font-family: 'Roboto';
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    width: 50%;
+    font-size: 16px;
+  }
+}
